@@ -1,0 +1,95 @@
+
+*{
+  box-sizing:border-box; /*when i give you a width, respect the width I've given you, if I add padding or a border apply it within that width not in addition to*/ 
+  padding:0;
+  margin:0;
+  max-width:100;
+  border:1px solid grey;
+}
+
+/*General Styles*/ 
+  html{
+  font-size:62.5% ; /*the default browser font-size is 16px this makes it so that 1 rem, is equal to 10 px. Accessible*/
+}
+  body{
+    font-size:1.8rem ;
+    line-height:1.5 ;
+    color:#4F4F4F ;
+  }
+a{
+  color:#0F00FF ;
+  text-decoration:none ;
+  letter-spacing: 2px;
+}
+a:hover{
+  color:#FF0000;
+}
+h1{
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+section, footer{
+  padding: 4% 0;
+}
+
+
+/*header section styles*/ 
+
+nav{
+  padding: 4% 0;
+  background-color: #FFF;
+  display:flex ;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+
+/*Home section styles*/
+#Home{ height: 90vh;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color:#FFFF; 
+      background-image: url(https://scoringlive.net/pix/_22091858_1WaipahuAiea_0021.jpg);
+      background-repeat:no-repeat ;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+     }
+#Home button{
+  color: #F0F;
+  padding: 3% 5%;
+  border-radius: 10px;
+  border: 3px solid #0000;
+  transition: 2s;
+}
+#Home button:hover{
+color: #FF0;  
+}
+
+/*About Section*/
+#About div{ 
+  width:60%;
+  margin:0 auto;
+  padding: 4%;
+  border:3px solid #FFF;
+  background-color: #F0F;
+}
+
+#About{
+  background-color:#FFF;
+}
+footer{background-color: #FFF;
+   color: #FFF;
+       border:3px solid #FFF;
+       text-align:center;
+      }
+/*Photo Section styles/*
+#Photo{
+  height:90hv;
+  background-image:url("Image1.webp");
+  background-color:#F0F0;  
+}
